@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - jooyoung01
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - jooyoung01/urban-tree-detection
+  - jooyoung01/weatherData
+  - jooyoung01/vottToYolo
+  - jooyoung01/kliqfindr
+

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-12-20 18:00:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+"At USC CKIDS DataFest Fall 2022, I got to present our research on 'Automatic Discovery of News Articles: Case of Police Misconduct.' And, I ended up winning the **Best Presentation award** as a project presenter!🐣🐣"
