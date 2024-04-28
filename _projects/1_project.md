@@ -1,81 +1,41 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Truck Detection and Counting
+description: Study on Truck Detection and Counting Using Infrared Cameras
+img: assets/img/proj_pic/truck_detection.png
 importance: 1
-category: work
-related_publications: true
+category: Research1
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
     ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
+    title: Truck Detection and Counting in Low-Light Condition: Do We Need Infrared Camera?
+    description: Research on the Necessity of Infrared Cameras for 24-Hour CCTV Truck Detection: Identifying and Accurately Counting Trucks Impacting Environmental Pollution.
+    tool: YOLO, Pytorch, OpenCV
     ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+This is an example truck detection videos in Regular camera and Infrared Camera.
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include video.liquid loading="eager" path="assets/video/truck_detection.mp4" title="Truck video" class="img-fluid z-depth-1" controls=true autoplay=true %}
+  </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+The left screen displays footage from a Regular camera, while the right screen shows footage from an Infrared camera. The top screen captures daytime, and the bottom screen captures nighttime, both with detections made by a trained model.
 </div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/proj_pic/truck_resutls.png" title="truck result image" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
 
-{% endraw %}
+Table 3 demonstrates that the model trained on nighttime Infrared Video (F1-score 0.903) outperforms the model trained on nighttime Regular Video (F1-score 0.804). Moreover, Table 4 shows that the detection rate of trucks in the right lane during nighttime using Regular video is relatively poor.
+<br/>
+
+Abstract: <br/>
+Conventional visual traffic analysis methods face challenges in achieving accurate and cost-effective monitoring of truck movements, especially in adverse conditions (bad weather or nighttime). The advent of deep learning technology has revolutionized object detection such as vehicles, particularly using low-cost Closed-Circuit Television (CCTV) cameras. However, object detection in low-light conditions such as nighttime is still a challenge. To address these challenges, we explore the potential of infrared imaging compared to regular imaging in truck detection and counting. Our study compares the performance of a YOLO- v5s model trained under various conditions for truck detection and counting, including day and night settings with temporally synchronized Regular and Infrared (IR) videos collected at the California 710 Freeway. Our experimental results confirmed that utilizing IR videos provides a better detection accuracy at night as expected. However, we found that just using regular videos in a specific way such as monitoring trucks at a closer distance in urban streets generates a satisfactory result which is comparable to that of IR videos. This is because there are still some lights around urban freeways even at night and hence, a regular camera is still able to successfully capture the edges of trucks. Furthermore, when the goal of monitoring truck movements is to count the number of passing trucks in a video, the accuracy of truck detection in an image is less critical than the performance of a counting algorithm.
+<br/>
+
+- J. Yoo, S. H. Kim, K. Sukhani, M. S. Yoo and C. Shahabi, "Truck Detection and Counting in Low-Light Condition: Do We Need Infrared Camera?," 2024 IEEE International Conference on Big Data and Smart Computing (BigComp), Bangkok, Thailand, 2024, pp. 317-324, [doi: 10.1109/BigComp60711.2024.00057](https://doi.org/10.1109/BigComp60711.2024.00057)
+.

@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: RSiena; Longitudinal Network Analysis Study
+description: Research on academic network analysis targeting undergraduate STEM students.
+img: assets/img/proj_pic/NetworkAnalysis.png
+importance: 1
+redirect: '#'
+category: Research2
 ---
 
 Every project has a beautiful feature showcase page.

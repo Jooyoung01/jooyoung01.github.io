@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Electric Vehicle Detection Using IR
+description: EV Car Detection Using IR
+img: assets/img/proj_pic/EV_vehicle.jpg
+redirect: '#'
 importance: 3
-category: work
+category: Research1
 ---
 
 Every project has a beautiful feature showcase page.

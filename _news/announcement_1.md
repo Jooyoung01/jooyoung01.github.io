@@ -6,3 +6,5 @@ related_posts: false
 ---
 
 "At USC CKIDS DataFest Fall 2022, I got to present our research on 'Automatic Discovery of News Articles: Case of Police Misconduct.' And, I ended up winning the **Best Presentation award** as a project presenter!🐣🐣"
+
+{% include figure.liquid loading="eager" path="assets/img/news_pic/best_presentation_DataFest.png" title="example image" class="img-fluid rounded z-depth-1" %} 
