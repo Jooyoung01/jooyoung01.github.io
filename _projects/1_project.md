@@ -7,14 +7,12 @@ importance: 1
 category: Research1
 ---
 
-    ---
     title: Truck Detection and Counting in Low-Light Condition: Do We Need Infrared Camera?
     description: Research on the Necessity of Infrared Cameras for 24-Hour CCTV Truck Detection: Identifying and Accurately Counting Trucks Impacting Environmental Pollution.
     tool: YOLO, Pytorch, OpenCV
-    ---
 
-This is an example truck detection videos in Regular camera and Infrared Camera.
 
+These are video samples of a deep learning model trained on Regular and Infrared data for truck detection.
 
 <div class="row justify-content-sm-center">
   <div class="col-sm mt-3 mt-md-0">

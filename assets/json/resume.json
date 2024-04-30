@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Jooyoung Yoo",
-    "label": "Master's student majoring in Spatial Data Science.",
+    "label": "Master's student in Spatial Data Science Program, USC.",
     "image": "",
     "email": "yoojooyo@usc.edu",
     "phone": "",
@@ -26,21 +26,46 @@
     {
       "name": "",
       "position": "Research Assistant",
-      "startDate": "2024-05-15",
+      "startDate": "24-05-15",
+      "endDate": "",
+      "summary": "Spatial Sciences Institute, USC ",
+      "highlights": ["Urban Tree Project"]
+    },
+    {
+      "name": "",
+      "position": "Research Assistant",
+      "startDate": "23-05-15",
       "endDate": "2024-05-15",
-      "summary": "Keck School of Medicine of USC",
+      "summary": "Keck School of Medicine, USC",
       "highlights": ["Truck Detection for Public Health"]
+    },
+    {
+      "name": "",
+      "position": "Research Assistant",
+      "startDate": "23-01-15",
+      "endDate": "",
+      "summary": "Integrated Media Systems Center, USC",
+      "highlights": ["Truck, Homeless Encampment, Electric Vehicle projects"]
     }
   ],
   "education": [
     {
       "institution": "University of Southern California",
       "location": "Los Angeles, CA",
-      "url": "https://www.usc.edu/",
+      "url": "https://en.wikipedia.org/wiki/University_of_Southern_California",
       "area": "Spatial Data Science",
-      "studyType": "MS",
+      "studyType": "Masters of Science",
       "startDate": "2023-01-01",
       "endDate": "2024-12-18"
+    },
+    {
+      "institution": "Myongji University",
+      "location": "Seoul, Korea",
+      "url": "https://en.wikipedia.org/wiki/Myongji_University",
+      "area": "Data Science",
+      "studyType": "Masters of Science",
+      "startDate": "2018-03-15",
+      "endDate": "2021-02-18"
     }
   ],
 
@@ -69,33 +94,55 @@
   ],
   "skills": [
     {
-      "name": "Spatial Data Science",
+      "name": "Machine Leraning",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Machine Learning",
-        "- PyTorch, Keras, TensorFlow for Deep Learning", 
-        "- YOLO for Object Detection",
-        "- OpenCV for Image Processing",
+        "Deep Learning",
+        "- PyTorch, TensorFlow, Keras", 
+        "- YOLO for Object Detection, Counting",
+        "Computer Vision",
+        "- OpenCV for Image Processing"
+      ]
+    },
+    {
+      "name": "Spatial Science",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
         "Geospatial Analysis",
-        "- ArcGIS Pro QGIS",
-        "- ArcGIS Online",
-        "Web Development",
-        "- Node.js for Backend development",
+        "- ArcGIS Pro,Online",
+        "- QGIS"
+      ]
+    },
+    {
+      "name": "Data Science",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
         "Statistical Data Analysis",
-        "- R-SIENA for Longitudinal Social Network Analysis (SIENA)",
+        "- R for Longitudinal Social Network Analysis (SIENA)",
         "- SPSS and MPLUS for SEM (Structural Equation Modelling) Research Methodology"
+      ]
+    },
+    {
+      "name": "Data Science",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Web Development",
+        "- Node.js for Backend development"
       ]
     }
   ],
   "languages": [
     {
-      "language": "Korean",
+      "language": "Korean 🇰🇷",
       "fluency": "Native speaker",
       "icon": "🇰🇷"
     },
     {
-      "language": "English",
+      "language": "English 🇺🇸",
       "fluency": "Fluent",
       "icon": "🇺🇸"
     }

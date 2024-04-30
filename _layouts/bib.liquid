@@ -9,6 +9,11 @@
       flex: 0 0 100%;
       max-width: 85%;
     }
+    .badge{
+      max-width: 95%;
+      margin-left: auto; 
+      margin-right: auto;
+    }
     .preview {
       margin-bottom: 0px; /* Space between badge and preview */
       display: block; 
@@ -107,7 +112,7 @@
           </em>
         {%- else -%}
           {%- if coauthor_url -%}
-            <a href="{{coauthor_url}}">
+            <a href="{{coauthor_url}}" style="color: rgb(0, 0, 0);">
               {{- author.first }}
               {{ author.last -}}
             </a>

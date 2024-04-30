@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Hello, I am a student currently enrolled in the Spatial Data Science <br/> Master's program at <a href='https://www.usc.edu' target='_blank'>University of Southern California</a>.
+subtitle: Hello, I am a student currently enrolled in the Spatial Data Science Master's program at <a href='https://www.usc.edu' target='_blank'>University of Southern California</a>.
 
 
 profile:
@@ -11,7 +11,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: #> includes a  <p>555 your office number</p><p>123 your address street</p><p>Your City, State 12345</p>
 
-news: false # includes a list of news items
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---

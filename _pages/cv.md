@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 5
 cv_pdf: CV_JooyoungYoo_May1,24.pdf
-description: I love Computer Vision, Map, Human, Education AND Otter 🦦!
+description: I love Computer Vision, Map, Human, Education, AI, AND Otter 🦦!
 toc:
   sidebar: left
 ---
