@@ -20,8 +20,9 @@ These are video samples of a deep learning model trained on Regular and Infrared
   </div>
 </div>
 <div class="caption">
-The left screen displays footage from a Regular camera, while the right screen shows footage from an Infrared camera. The top screen captures daytime, and the bottom screen captures nighttime, both with detections made by a trained model.
+The videos on the left column were captured by a regular camera, while the videos on the right column were taken using an infrared camera. The top row of videos were taken during the daytime, while the bottom row features nighttime footage. 
 </div>
+The models were trained on separate datasets. Both the regular and infrared cameras were synchronized during the recording process. The video datasets were recorded by me and my team on the California 710 freeway, a location well-known for its heavy truck traffic.
 <div class="row justify-content-sm-center">
   <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/proj_pic/truck_resutls.png" title="truck result image" class="img-fluid rounded z-depth-1" %}
