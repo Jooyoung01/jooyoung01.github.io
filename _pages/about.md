@@ -35,5 +35,6 @@ My favorite library is OpenCV, and in social science research, I often use the R
 <div>
 Summary:<br/>
 Recently, I have been using <b>Python</b> for Computer vision with deep learning and spatial projects. Plus, <b>R</b> for social science projects 😄.
+<br/>
 </div>
 
