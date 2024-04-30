@@ -1,7 +1,26 @@
 ---
 ---
+<style>
+  @media (max-width: 576px) {
+    .row {
+      flex-direction: column; /* Stack children vertically */
+    }
+    .abbr, .{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %} {
+      flex: 0 0 100%;
+      max-width: 85%;
+    }
+    .preview {
+      margin-bottom: 0px; /* Space between badge and preview */
+      display: block; 
+      margin-left: auto; /* Center these columns horizontally */
+      margin-right: auto; /* Center these columns horizontally */
+    }
+  }
+</style>
+
 <div class="row">
   {% if site.enable_publication_thumbnails %}
+    <!-- Class Bar -->
     <div class="col-sm-2 abbr">
       {%- if entry.abbr -%}
         {%- if site.data.venues[entry.abbr] -%}
@@ -25,6 +44,7 @@
           <abbr class="badge rounded">{{ entry.abbr }}</abbr>
         {% endif %}
       {% endif %}
+      <!-- Preview Figure -->
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
@@ -34,7 +54,7 @@
             include figure.liquid
             loading="eager"
             path=entry_path
-            sizes = "200px"
+            sizes = "1200px"
             class="preview z-depth-1 rounded"
             zoomable=true
             alt=entry.preview
